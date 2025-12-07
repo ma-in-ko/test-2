@@ -1,0 +1,92 @@
+.product-create-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.page-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.required {
+    background: red;
+    color: #fff;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.sub {
+    color: red;
+    font-size: 12px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fafafa;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+.season-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 25px;
+}
+
+.season-item {
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn-back {
+    padding: 12px 40px;
+    background: #ddd;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-submit {
+    padding: 12px 40px;
+    background: #f5c400;
+    border: none;
+    border-radius: 8px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
